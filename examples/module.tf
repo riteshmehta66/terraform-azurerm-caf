@@ -19,6 +19,7 @@ module "example" {
   resource_groups                       = var.resource_groups
   role_mapping                          = var.role_mapping
   storage_accounts                      = var.storage_accounts
+  servicebus_namespaces                 = var.servicebus_namespaces
   subscription_billing_role_assignments = var.subscription_billing_role_assignments
   tags                                  = local.tags
 

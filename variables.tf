@@ -359,3 +359,47 @@ variable "cognitive_services" {
   description = "Configuration object - Cognitive Service Resource "
   default     = {}
 }
+
+variable "servicebus_namespaces" {
+  description = "Configuration object - service bus namespace object."
+  default     = {}
+}
+
+variable "servicebus_namespace_auth_rules" {
+  description = "Configuration object - Service bus namespace authorization rules"
+  default     = {}
+}
+
+
+variable "servicebus_queues" {
+  description = "Configuration object - service bus queue object."
+  default     = {}
+}
+
+variable "servicebus_queue_auth_rules" {
+  description = "Configuration object - Service bus queue authorization rules"
+  default     = {}
+}
+
+
+variable "servicebus_topics" {
+  description = "Configuration object - service bus topic object."
+  default     = {}
+}
+
+
+variable "servicebus_topic_auth_rules" {
+  description = "Configuration object - Service bus topic authorization rules"
+  default     = {}
+}
+
+variable "servicebus_subscriptions" {
+  description = "Configuration object - service bus subscription object."
+  default     = {}
+}
+
+
+variable "servicebus_subscription_rules" {
+  description = "Configuration object - Service bus subscription rules"
+  default     = {}
+}

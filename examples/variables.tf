@@ -598,3 +598,7 @@ variable "logic_app_trigger_recurrence" {
 variable "logic_app_trigger_custom" {
   default = {}
 }
+
+variable "servicebus_namespaces" {
+  default = {}
+}
